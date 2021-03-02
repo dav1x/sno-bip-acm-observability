@@ -6,10 +6,10 @@ The pre-requisistes include installing a SNO-BIP cluster and having the followin
 
 ```
 $ORIGIN ocp-sno.e2e.bos.redhat.com.
-api                     A       10.19.32.200
-api-int                 A       10.19.32.200
+api                     A       10.x.y.200
+api-int                 A       10.x.y.200
 $ORIGIN apps.ocp-sno.e2e.bos.redhat.com.
-*                       A       10.19.32.200
+*                       A       10.x.y.200
 ```
 
 Now, clone the repo and follow the steps listed in it:
