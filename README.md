@@ -75,3 +75,10 @@ MCO_S3_SECRETKEY=supersecretkey \
 ./install-observability.sh
 ```
 
+Now, you can logon to the ACM multicluster hub and observe the performance data.
+
+![plot](./images/ACM1.png)
+![plot](./images/ACM2.png)
+![plot](./images/ACM3.png)
+![plot](./images/ACM4.png)
+
