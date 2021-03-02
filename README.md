@@ -16,9 +16,7 @@ Now, clone the repo and follow the steps listed in it:
 
 ```
 git clone https://github.com/eranco74/bootstrap-in-place-poc
-
 cd bootstrap-in-place-poc
-
 # Create the install-config
 vim install-config.yaml
 
@@ -31,7 +29,6 @@ cp install-config.yaml sno-workdir/
 
 # Generate the ignition and manifests
 # 0.3.0 is 4.7 and 0.5.0 is 4.8
-
 INSTALLATION_DISK=/dev/sda \
 RELEASE_IMAGE=registry.svc.ci.openshift.org/sno-dev/openshift-bip:0.3.0 \
 INSTALLER_BIN=./bin/openshift-install \
@@ -39,7 +36,6 @@ INSTALLER_WORKDIR=./sno-workdir \
 ./generate.sh
 
 # Embed the ISO with the files created above
-
 ISO_PATH=./sno-workdir/base.iso \
 IGNITION_PATH=./sno-workdir/bootstrap-in-place-for-live-iso.ign \
 OUTPUT_PATH=./sno-workdir/embedded.iso \
